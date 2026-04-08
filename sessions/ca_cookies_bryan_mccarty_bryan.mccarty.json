@@ -1,0 +1,92 @@
+[
+  {
+    "name": "AUTH_SESSION_ID",
+    "value": "ef5454b7-d941-483c-8a2c-3fdf4050c7a1.watkins-watkins-keycloak-0-38201",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AUTH_SESSION_ID_LEGACY",
+    "value": "ef5454b7-d941-483c-8a2c-3fdf4050c7a1.watkins-watkins-keycloak-0-38201",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "KEYCLOAK_IDENTITY",
+    "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1ZWZhNDkyOC0yOWVkLTRmMTAtOTE5ZS1kMTEyMDQ0ZTE0YzYifQ.eyJleHAiOjE3NzY4NjY4MTcsImlhdCI6MTc3NTY1NzIxNywianRpIjoiNzRkZGI3NjktOGMzNy00MDg3LWEwZWItZDNiMzQ4MDcwNDVlIiwiaXNzIjoiaHR0cHM6Ly9pZC5hcHAuY29kZWFueXdoZXJlLmNvbS9yZWFsbXMvZGVmYXVsdCIsInN1YiI6ImI5ZjUwY2UwLTUzYTItNDk2Zi05YWNmLTMzMWY0Y2FmOTkyNCIsInR5cCI6IlNlcmlhbGl6ZWQtSUQiLCJzZXNzaW9uX3N0YXRlIjoiZWY1NDU0YjctZDk0MS00ODNjLThhMmMtM2ZkZjQwNTBjN2ExIiwic2lkIjoiZWY1NDU0YjctZDk0MS00ODNjLThhMmMtM2ZkZjQwNTBjN2ExIiwic3RhdGVfY2hlY2tlciI6InkxSHkwRkpnWnVqd05hbXk2N3NzaVZIdEpvTEpjaF9JQnZKelpzV3BRbXMifQ.lGilNIleq_5PMRNdf1ww-R1zLiFpCtdJBs8ZP8rwQhI",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KEYCLOAK_IDENTITY_LEGACY",
+    "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1ZWZhNDkyOC0yOWVkLTRmMTAtOTE5ZS1kMTEyMDQ0ZTE0YzYifQ.eyJleHAiOjE3NzY4NjY4MTcsImlhdCI6MTc3NTY1NzIxNywianRpIjoiNzRkZGI3NjktOGMzNy00MDg3LWEwZWItZDNiMzQ4MDcwNDVlIiwiaXNzIjoiaHR0cHM6Ly9pZC5hcHAuY29kZWFueXdoZXJlLmNvbS9yZWFsbXMvZGVmYXVsdCIsInN1YiI6ImI5ZjUwY2UwLTUzYTItNDk2Zi05YWNmLTMzMWY0Y2FmOTkyNCIsInR5cCI6IlNlcmlhbGl6ZWQtSUQiLCJzZXNzaW9uX3N0YXRlIjoiZWY1NDU0YjctZDk0MS00ODNjLThhMmMtM2ZkZjQwNTBjN2ExIiwic2lkIjoiZWY1NDU0YjctZDk0MS00ODNjLThhMmMtM2ZkZjQwNTBjN2ExIiwic3RhdGVfY2hlY2tlciI6InkxSHkwRkpnWnVqd05hbXk2N3NzaVZIdEpvTEpjaF9JQnZKelpzV3BRbXMifQ.lGilNIleq_5PMRNdf1ww-R1zLiFpCtdJBs8ZP8rwQhI",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "KEYCLOAK_SESSION",
+    "value": "default/b9f50ce0-53a2-496f-9acf-331f4caf9924/ef5454b7-d941-483c-8a2c-3fdf4050c7a1",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": 1776866817.642441,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KEYCLOAK_SESSION_LEGACY",
+    "value": "default/b9f50ce0-53a2-496f-9acf-331f4caf9924/ef5454b7-d941-483c-8a2c-3fdf4050c7a1",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": 1776866817.642505,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.2031754865.1775657193",
+    "domain": ".codeanywhere.com",
+    "path": "/",
+    "expires": 1810217218.012451,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_K24HPQR96Q",
+    "value": "GS2.1.s1775657192$o1$g1$t1775657220$j32$l0$h0",
+    "domain": ".codeanywhere.com",
+    "path": "/",
+    "expires": 1810217220.022593,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ph_phc_NxK2DnEXx0TO1xiK6MsFVXc2ipbniyKPCAhKoXVqcRX_posthog",
+    "value": "%7B%22%24device_id%22%3A%22019d6d6a-93ea-727e-ac40-03f886acf01b%22%2C%22distinct_id%22%3A%22b9f50ce0-53a2-496f-9acf-331f4caf9924%22%2C%22%24sesid%22%3A%5B1775657230853%2C%22019d6d6a-941a-7689-aaee-1f66ccca9df5%22%2C1775657194499%5D%2C%22%24session_is_sampled%22%3A%22019d6d6a-941a-7689-aaee-1f66ccca9df5%22%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fapp.codeanywhere.com%2F%22%7D%2C%22%24user_state%22%3A%22identified%22%7D",
+    "domain": ".codeanywhere.com",
+    "path": "/",
+    "expires": 1807193230,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

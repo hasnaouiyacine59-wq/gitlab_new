@@ -1,0 +1,92 @@
+[
+  {
+    "name": "AUTH_SESSION_ID",
+    "value": "1c59233f-71e6-41e9-8e9f-b05ccf05933c.watkins-watkins-keycloak-0-38201",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AUTH_SESSION_ID_LEGACY",
+    "value": "1c59233f-71e6-41e9-8e9f-b05ccf05933c.watkins-watkins-keycloak-0-38201",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "KEYCLOAK_IDENTITY",
+    "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1ZWZhNDkyOC0yOWVkLTRmMTAtOTE5ZS1kMTEyMDQ0ZTE0YzYifQ.eyJleHAiOjE3NzY4Njc4MTMsImlhdCI6MTc3NTY1ODIxMywianRpIjoiMTVhNmRiOGYtZGQ0YS00OGU2LWEwYjItMWFiMTEzM2MwYTVhIiwiaXNzIjoiaHR0cHM6Ly9pZC5hcHAuY29kZWFueXdoZXJlLmNvbS9yZWFsbXMvZGVmYXVsdCIsInN1YiI6IjJlNWE3ZmZkLTkwZjktNDIxOS1hODdiLTcwYWQ1MTcxZWMzNyIsInR5cCI6IlNlcmlhbGl6ZWQtSUQiLCJzZXNzaW9uX3N0YXRlIjoiMWM1OTIzM2YtNzFlNi00MWU5LThlOWYtYjA1Y2NmMDU5MzNjIiwic2lkIjoiMWM1OTIzM2YtNzFlNi00MWU5LThlOWYtYjA1Y2NmMDU5MzNjIiwic3RhdGVfY2hlY2tlciI6ImRnaFZiVzJDN2VES2dtcFR2NkFIeFRuSXZUeHF6SGNIQjdNRDgyLXh1SkEifQ.WBih8AMycdMP6BUN9F_EOA6UQBEe98FudN54aUBUNEQ",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KEYCLOAK_IDENTITY_LEGACY",
+    "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1ZWZhNDkyOC0yOWVkLTRmMTAtOTE5ZS1kMTEyMDQ0ZTE0YzYifQ.eyJleHAiOjE3NzY4Njc4MTMsImlhdCI6MTc3NTY1ODIxMywianRpIjoiMTVhNmRiOGYtZGQ0YS00OGU2LWEwYjItMWFiMTEzM2MwYTVhIiwiaXNzIjoiaHR0cHM6Ly9pZC5hcHAuY29kZWFueXdoZXJlLmNvbS9yZWFsbXMvZGVmYXVsdCIsInN1YiI6IjJlNWE3ZmZkLTkwZjktNDIxOS1hODdiLTcwYWQ1MTcxZWMzNyIsInR5cCI6IlNlcmlhbGl6ZWQtSUQiLCJzZXNzaW9uX3N0YXRlIjoiMWM1OTIzM2YtNzFlNi00MWU5LThlOWYtYjA1Y2NmMDU5MzNjIiwic2lkIjoiMWM1OTIzM2YtNzFlNi00MWU5LThlOWYtYjA1Y2NmMDU5MzNjIiwic3RhdGVfY2hlY2tlciI6ImRnaFZiVzJDN2VES2dtcFR2NkFIeFRuSXZUeHF6SGNIQjdNRDgyLXh1SkEifQ.WBih8AMycdMP6BUN9F_EOA6UQBEe98FudN54aUBUNEQ",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "KEYCLOAK_SESSION",
+    "value": "default/2e5a7ffd-90f9-4219-a87b-70ad5171ec37/1c59233f-71e6-41e9-8e9f-b05ccf05933c",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": 1776867813.806006,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KEYCLOAK_SESSION_LEGACY",
+    "value": "default/2e5a7ffd-90f9-4219-a87b-70ad5171ec37/1c59233f-71e6-41e9-8e9f-b05ccf05933c",
+    "domain": "id.app.codeanywhere.com",
+    "path": "/realms/default/",
+    "expires": 1776867813.80614,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.86650047.1775658176",
+    "domain": ".codeanywhere.com",
+    "path": "/",
+    "expires": 1810218214.622505,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_K24HPQR96Q",
+    "value": "GS2.1.s1775658175$o1$g1$t1775658253$j60$l0$h0",
+    "domain": ".codeanywhere.com",
+    "path": "/",
+    "expires": 1810218253.010653,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ph_phc_NxK2DnEXx0TO1xiK6MsFVXc2ipbniyKPCAhKoXVqcRX_posthog",
+    "value": "%7B%22%24device_id%22%3A%22019d6d79-931b-73c4-9e3a-b92d0f63d264%22%2C%22distinct_id%22%3A%222e5a7ffd-90f9-4219-a87b-70ad5171ec37%22%2C%22%24sesid%22%3A%5B1775658261817%2C%22019d6d79-9338-7a77-a73e-988880797154%22%2C1775658177332%5D%2C%22%24session_is_sampled%22%3A%22019d6d79-9338-7a77-a73e-988880797154%22%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fapp.codeanywhere.com%2F%22%7D%2C%22%24user_state%22%3A%22identified%22%7D",
+    "domain": ".codeanywhere.com",
+    "path": "/",
+    "expires": 1807194261,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]
