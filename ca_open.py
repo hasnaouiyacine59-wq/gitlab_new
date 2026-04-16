@@ -73,7 +73,7 @@ with sync_playwright() as p:
     import numpy as np
     import pyautogui
 
-    def find_and_click(template_path, label, offset_x=0):
+    def find_and_click(template_path, label, offset_x=0, pause_before_click=False):
         template = cv2.imread(template_path, cv2.IMREAD_COLOR)
         log("~", f"Waiting for {C['magenta']}{label}{C['reset']}...", "yellow")
         while True:
@@ -85,12 +85,14 @@ with sync_playwright() as p:
                 h, w = template.shape[:2]
                 cx = max_loc[0] + w // 2 + offset_x
                 cy = max_loc[1] + h // 2
-                log("✓", f"Found {C['magenta']}{label}{C['reset']} at ({cx}, {cy}), clicking...", "green")
+                log("✓", f"Found {C['magenta']}{label}{C['reset']} at ({cx}, {cy})", "green")
+                if pause_before_click:
+                    input('kkk')
                 pyautogui.click(cx, cy)
                 return cx, cy
             time.sleep(5)
 
-    find_and_click("src/mark_done.png", "mark_done")
+    find_and_click("src/mark_done.png", "mark_done", pause_before_click=True)
     vs_page.keyboard.press("Control+Shift+C")
     vs_page.wait_for_timeout(8000)
 

@@ -193,26 +193,35 @@ if __name__ == "__main__":
                 ca_page.keyboard.press('Tab')
                 ca_page.keyboard.press('Enter')
 
-                print("[9] Waiting for repository selector...")
-                ca_page.wait_for_selector('.GitRepositoryDropdown_placeholder-wrapper__XeYoL', timeout=30000)
-                ca_page.click('.GitRepositoryDropdown_selected-option-caret-icon__cFRRk')
+                print("[9] Dumping full page HTML for inspection...")
+                with open("ca_page_dump.html", "w") as _f:
+                    _f.write(ca_page.content())
+                print("[9] Saved to ca_page_dump.html")
 
-                try:
-                    print("[9] Selecting Codeanywhere-Templates/empty...")
-                    ca_page.wait_for_selector('.GitRepositoryInfo_label__QUpyv:has-text("Codeanywhere-Templates/empty")', timeout=15000)
-                    ca_page.wait_for_timeout(1500)
-                    ca_page.locator('.GitRepositoryInfo_label__QUpyv:has-text("Codeanywhere-Templates/empty")').scroll_into_view_if_needed()
-                    ca_page.locator('.GitRepositoryInfo_label__QUpyv:has-text("Codeanywhere-Templates/empty")').click(force=True)
-                except Exception as e:
-                    print(f"[9] ERROR selecting repository: {e}")
-                    input('fix repo selection then press Enter...')
+                print("[9] Waiting for repository dropdown button...")
+                ca_page.wait_for_selector('button.GitRepositoryDropdown_selected-option__4yDhC', timeout=30000)
+
+                # Open dropdown only if not already expanded
+                btn = ca_page.query_selector('button.GitRepositoryDropdown_selected-option__4yDhC')
+                if 'expanded' not in (btn.get_attribute('class') or ''):
+                    btn.click()
+                    print("[9] Clicked dropdown to open.")
+                else:
+                    print("[9] Dropdown already open.")
+
+                print("[9] Waiting for 'empty' option...")
+                ca_page.wait_for_selector('.GitRepositoryInfo_label__QUpyv', timeout=15000)
+                target = ca_page.locator('.GitRepositoryInfo_label__QUpyv:text-is("Codeanywhere-Templates/empty")').first
+                target.scroll_into_view_if_needed()
+                target.click()
+                print("[9] Repository selected.")
 
                 import json, os
                 ca_cookies = [c for c in context.cookies() if 'codeanywhere.com' in c['domain']]
                 cookies_file = f"sessions/ca_cookies_{user['first_name'].lower()}_{user['last_name'].lower()}_{user['email'].split('@')[0]}.json"
                 with open(cookies_file, "w") as f:
-                    json.dump(ca_cookies, f, indent=2)
-                print(f"[9] Saved {len(ca_cookies)} Codeanywhere cookies to {cookies_file}")
+                    json.dump({"email": user["email"], "password": password, "cookies": ca_cookies}, f, indent=2)
+                print(f"[9] Saved {len(ca_cookies)} Codeanywhere cookies + credentials to {cookies_file}")
 
                 print("[9] Waiting for Continue button...")
                 ca_page.wait_for_selector('button[type="submit"]:has-text("Continue")', timeout=30000)
